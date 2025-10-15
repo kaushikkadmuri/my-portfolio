@@ -12,7 +12,7 @@ function EducationTimeline() {
                         <div className="circle"></div>
                         <div className="date">
                             <IoCalendarClearOutline /> 2021 - 2025
-                            <h4>Batchelor of Technology in CSE</h4>
+                            <h4>Bachelor of Technology in CSE</h4>
                             <h4>CGPA - 6.52</h4>
                         </div>
                     </div> 

@@ -17,7 +17,7 @@ function App() {
     <ScrollToTop />
     <HorizontalNavbar/>
     <Routes>
-      <Route path='/my-portfolio' element={<HomeSection/>} />
+      {/* <Route path='/my-portfolio' element={<HomeSection/>} /> */}
       <Route path='/' element={<HomeSection/>} />
       <Route path='/home' element={<HomeSection />} />
       <Route path='/about' element={<AboutSection />} />

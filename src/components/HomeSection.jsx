@@ -1,6 +1,6 @@
 import './HomeSection.css';
 import { GoArrowDownRight } from "react-icons/go";
-import profilePic from '../assets/_pic.jpg';
+import profilePic from './assets/_pic.jpg';
 import { Link } from 'react-router-dom'
 // import { Link } from 'react-scroll';
 
