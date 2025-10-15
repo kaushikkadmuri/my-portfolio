@@ -1,0 +1,81 @@
+
+.contact-form-row-wrapper h3{
+    color: orangered;
+    font-size: 1.5rem;
+}
+
+.contact-form-row-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.form-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+}
+
+.input-row1, .input-row2, .input-row3 {
+    display: flex;
+    justify-content: center;
+}
+
+.input-row1 {
+    gap: 20px;
+}
+
+.input-field-name {
+    min-width: 0;
+    flex: 1 1 0;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.input-field-email {
+    min-width: 0;
+    flex: 1 1 0;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.input-field-subject {
+    max-width: 100%;
+    flex: 0 0 100%;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.textarea {
+    max-width: 100%;
+    flex: 0 0 100%;
+    padding: 10px;
+    padding-left: 20px;
+    padding-bottom: 40px;
+}
+
+input, textarea {
+    border: 1px solid;
+    border-radius: 20px;
+    font-size: 1rem;
+    background-color:aliceblue;
+    /* background-color:  hsl(0, 0%, 95%); */
+}
+
+.send-btn-row {
+    display: flex;
+    justify-content: center;
+}
+
+.send-btn {
+    font-size: 1rem;
+    padding: 10px 20px;
+    letter-spacing: 1px;
+    background-color: orange;
+    border: 1.3px solid;
+    border-radius: 20px;
+    cursor: pointer;
+}

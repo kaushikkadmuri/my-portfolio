@@ -1,0 +1,48 @@
+
+.contact-row1-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+}
+
+.contact-section {
+    height: 100%;
+}
+
+.contact-row1-wrapper h3{
+    color: orangered;
+}
+
+.contact-row2-wrapper {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+}
+
+.contact-info-item {
+    max-width: 33%;
+    flex: 0 0 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.contact-info-item .contact-logo {
+    font-size: 1.85rem;
+    color: orangered;
+}
+
+.contact-info-item p {
+    margin: 0; 
+}
+
+.contact-info-item h4 {
+    font-weight: 500;
+}

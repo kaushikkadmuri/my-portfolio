@@ -1,0 +1,99 @@
+
+.hello, .profession {
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.name {
+    color: orangered;
+}
+
+p {
+    font-size: 16px;
+}
+
+.home-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+
+.container {
+    width: 55%;
+}
+
+img {
+    width: 250px;
+    border-radius: 20px;
+}
+
+.img-container {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px; 
+}
+
+.img-container::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 70px;
+    height: 70px;
+    border-bottom-left-radius: 20px;
+    border-left: 4px solid orangered;
+    border-bottom: 4px solid orangered;
+}
+
+.img-container::after {
+    content: '';
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    right: 0;
+    top: 0;
+    border-top-right-radius: 20px;
+    border-right: 4px solid orangered;
+    border-top: 4px solid orangered;
+}
+
+.hello {
+    margin-bottom: 4px;
+}
+
+p {
+    margin-top: 20px;
+    margin-bottom: -30px;
+}
+
+.img-btn-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.btn {
+    height: 40px;
+    padding: 24px 20px;
+    outline: none;
+    background-color: orange;
+    border: 1.3px solid;
+    border-radius: 20px ;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 0.95rem;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.down-arrow {
+    min-width: 20px;
+    font-size: 1.5rem;
+}
+

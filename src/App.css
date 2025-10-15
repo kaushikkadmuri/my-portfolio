@@ -1,0 +1,130 @@
+.hamburger {
+    display: none;
+}
+
+.navbar {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    
+    /* Sidebar */
+    
+    nav {
+        display: none; 
+        z-index: 1000;
+    }
+
+    nav.nav-toggle {
+        display: block;
+    }
+
+    /* Horizontal Navbar */
+
+    .hamburger {
+        display: flex !important;
+        z-index: 100;
+        position: absolute;
+        top: 20px;
+        right: 30px;
+    }
+
+    .navbar {
+        display: flex !important;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background-color: aliceblue;
+        width: 100vw;
+        height: 80px;
+        padding-left: 10px;
+    }
+
+    li {
+        border-radius: initial !important;
+        margin-bottom: 40px !important;
+    }
+    
+    .logo::before, .logo::after {
+        display: none;
+    }
+
+    section {
+        max-width: 100%;
+        margin: 1.25rem;
+        margin-top: 3px;
+    }
+
+    /* Home Section */
+    
+    .home-section {
+        height: 100%;
+        padding: 40px;
+    }
+
+    .container {
+        width: 100% !important;
+    }
+
+    .img-btn-wrapper {
+        flex-direction: column;
+    }
+
+    /* About Section */
+
+    .about-section {
+        height: 100%;
+    }
+
+    .info-skill-wrapper {
+        margin-bottom: 1.5rem;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .info-wrap {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .skill-wrap {
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    /* Education & Experience Section */
+
+    .edu-exp-wrap {
+        flex-direction: column;    
+        width: 100%;
+        gap: 2rem;
+        
+    }
+
+    /* Projects Section  */
+
+    .projects-wrapper {
+        grid-template-columns: repeat(2, 1fr) !important; 
+        grid-template-rows: auto !important;
+    }
+
+
+    /* Contact Section */
+    
+    .contact-row2-wrapper {
+        flex-direction: column; 
+        align-items: center; 
+        gap: 2rem; 
+        height: auto; 
+    }
+    .contact-info-item {
+        max-width: 100%; 
+        flex: 1 1 100%; 
+    }
+
+    .input-row1{
+        flex-direction: column;
+    }
+    
+}
+ 

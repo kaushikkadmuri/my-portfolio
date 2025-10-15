@@ -1,0 +1,63 @@
+.edu-exp-wrap {
+    display: flex;
+    height: 60%;
+    width: 100%;
+}  
+
+.education {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 100%;
+}
+
+.experience {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+   
+.box {
+    width: 90%;
+    height: 90%;
+    padding-bottom: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.timeline {
+    padding: 20px;
+    padding-bottom: 10px;
+    position: relative;
+    display: flex;
+    gap: 15px;
+}
+
+.timeline1::before,.timeline2::before {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    left: 27px;
+    background-color: orangered;
+}
+
+.timeline3::before {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 70%;
+    left: 27px;
+    background-color: orangered;
+}
+
+.circle {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: orangered;
+}
